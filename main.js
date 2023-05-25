@@ -2,8 +2,11 @@
 
     Moengage = moe({
     app_id:"2877NHMD0TOHATHC6NNHDERW",
-    debug_logs: 1
-    swPath: /Users/aman.arora@moengage.com/Desktop/WebDemo/SerivceWorker/serviceworker.js
+    debug_logs: 1,
+    cards: {
+      enable: true,
+      placeholder: 'bell-solid.svg' // CSS selector of inbox icon 
+    } 
     });
 
 function setFormMessage(formElement, type, message) {
