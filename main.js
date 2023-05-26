@@ -7,7 +7,7 @@
       enable: true,
       placeholder: 'bell-solid.svg' // CSS selector of inbox icon 
     } 
-    swPath : "/WebDemo/serviceworker.js",
+    swPath : "https://omityearora.github.io/WebDemo/serviceworker.js",
     swScope : "/"
     });
 
