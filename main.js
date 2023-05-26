@@ -6,9 +6,9 @@
     cards: {
       enable: true,
       placeholder: 'bell-solid.svg' // CSS selector of inbox icon 
-    } ,
-    swPath : "/WebDemo/serviceworker.js",
-    swScope : "/WebDemo/"
+    } 
+    //swPath : "/WebDemo/serviceworker.js",
+    //swScope : "/WebDemo/"
     });
 
 function setFormMessage(formElement, type, message) {
