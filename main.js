@@ -7,6 +7,8 @@
       enable: true,
       placeholder: 'bell-solid.svg' // CSS selector of inbox icon 
     } 
+    swPath : "/WebDemo/serviceworker.js",
+    swScope : "/"
     });
 
 function setFormMessage(formElement, type, message) {
