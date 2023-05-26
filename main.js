@@ -7,8 +7,8 @@
       enable: true,
       placeholder: 'bell-solid.svg' // CSS selector of inbox icon 
     } 
-    swPath : "https://omityearora.github.io/WebDemo/serviceworker.js",
-    swScope : "/"
+    swPath : "/WebDemo/serviceworker.js",
+    swScope : "/WebDemo/"
     });
 
 function setFormMessage(formElement, type, message) {
