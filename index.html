@@ -19,9 +19,9 @@
                 <input type="password" class="form__input" autofocus placeholder="Password">
                 <div class="form__input-error-message"></div>
             </div>
-            <button class="form__button" type="submit">Continue</button>
+            <button class="form__button" id= "continue" type="submit" onclick="myFunction1()">Continue</button>
             <p class="form__text">
-                <a href="#" class="form__link">Forgot your password?</a>
+                <a href="#" class="form__link" id="forget"  onclick="myFunction2()">Forgot your password?</a>
             </p>
             <p class="form__text">
                 <a class="form__link" href="./" id="linkCreateAccount">Don't have an account? Create account</a>
@@ -55,4 +55,14 @@
     <script src="main.js">
     </script>
     <script src="/serviceworker.js"></script>
+    <script>
+        function myFunction1()
+            {
+                Moengage.track_event("Sample Event1",{"attribute1","True"});
+            }
+        function myFunction1()
+            {
+                Moengage.track_event("Sample Event2",{"attribute2","True"});
+            }
+    </script>
 </body>
